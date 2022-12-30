@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Search.TestingGoogleSearch]" verbose="0">
+  <test thread-count="5" name="Command line test(failed)" verbose="0">
+    <classes>
+      <class name="Search.TestingGoogleSearch">
+        <methods>
+          <include name="testFlow" invocation-numbers="0"/>
+          <include name="AfterSetup"/>
+          <include name="browserSetup"/>
+        </methods>
+      </class> <!-- Search.TestingGoogleSearch -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Search.TestingGoogleSearch] -->
